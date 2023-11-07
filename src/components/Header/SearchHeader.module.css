@@ -1,0 +1,33 @@
+.container {
+  width: 400px;
+}
+.input {
+  width: 90%;
+  padding: 6px;
+  border-radius: 10px 0 0 10px;
+  outline: none;
+}
+.button {
+  padding: 8px 10px;
+  border-radius: 0 10px 10px 0;
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease; 
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+@media only screen and (max-width:500px){
+  .container {  
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .input{
+    width: 60%;
+  }
+}
