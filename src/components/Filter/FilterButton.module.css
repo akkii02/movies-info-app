@@ -1,0 +1,51 @@
+.container {
+      width: 80%;
+      margin-left: 10%;
+      margin-top: 20px;
+      padding: 35px;
+      transition: all 0.3s ease; /* Add transition property for smooth effect */
+      display: block;
+    }
+    
+    .button {
+      padding: 8px 33px;
+      font-size: 15px;
+      background-color: #ffffff;
+      color: black;
+      border-radius: 20px;
+      outline: none;
+      margin: 10px 10px;
+      cursor: pointer;
+      transition: all 0.3s ease; /* Add transition property for smooth effect */
+    }
+    .button:hover{
+      background-color: transparent;
+      border: 2px solid white;
+      color: green;
+    }
+    .btn{
+      background-color: transparent;
+      color: #ffffff;
+      outline: none;
+      padding: 10px;
+      font-size: 20px;
+      border: none;
+      position: fixed;
+      right: 10%;
+    }
+    .btn:hover{
+      color: red;
+    }
+    
+    /* Additional styles for smaller screens */
+    @media only screen and (max-width: 500px) {
+      .container {
+        padding: 15px;
+      }
+    
+      .button {
+        padding: 8px 12px;
+        margin: 8px 3px;
+      }
+    }
+    
